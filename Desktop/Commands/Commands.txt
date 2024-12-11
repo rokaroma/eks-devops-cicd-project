@@ -1,0 +1,16 @@
+sudo apt update
+sudo apt install python3.12-venv
+pip install Flask
+pip install jinja2
+pip install gunicorn
+pip install requests
+pip install werkzeug
+pip install markupsafe
+
+sudo apt install git
+git --version
+git init
+git status
+git add (file name)
+
+

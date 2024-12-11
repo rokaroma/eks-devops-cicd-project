@@ -1,0 +1,71 @@
+{
+  "Version": "24.04",
+  "OEM": {
+    "Vendor": "LENOVO",
+    "Product": "2349GZG",
+    "Family": "ThinkPad T430"
+  },
+  "BIOS": {
+    "Vendor": "LENOVO",
+    "Version": "G1ET41WW (1.16 )"
+  },
+  "Arch": "amd64",
+  "HwCap": "x86-64-v2",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "0166"
+    }
+  ],
+  "RAM": 16.1,
+  "Disks": [
+    256.1,
+    15.6
+  ],
+  "Partitions": [
+    245,
+    15.2
+  ],
+  "Screens": [
+    {
+      "Size": "310mmx170mm",
+      "Resolution": "1600x900",
+      "Frequency": "59.95"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "wayland"
+  },
+  "Language": "en_US",
+  "Timezone": "Africa/Cairo",
+  "Install": {
+    "Type": "Flutter",
+    "OEM": false,
+    "Media": "Ubuntu 24.04.1 LTS",
+    "Stages": {
+      "2": "locale",
+      "5": "accessibility",
+      "7": "keyboard",
+      "8": "network",
+      "99": "tryOrInstall",
+      "104": "autoinstall",
+      "110": "sourceSelection",
+      "122": "codecsAndDrivers",
+      "174": "storage",
+      "180": "identity",
+      "206": "timezone",
+      "208": "confirm",
+      "210": "install",
+      "26061": "done"
+    },
+    "Language": "en",
+    "Minimal": true,
+    "RestrictedAddons": false,
+    "PartitionMethod": "use_device",
+    "UseActiveDirectory": false
+  }
+}
